@@ -1,0 +1,43 @@
+{
+  "name": "gulp-example",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "gulp": "ts-node-esm ./node_modules/gulp/bin/gulp.js",
+    "build": "ts-node-esm ./node_modules/gulp/bin/gulp.js build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/gulp": "^4.0.17",
+    "@types/gulp-clean-css": "^4.3.4",
+    "@types/gulp-imagemin": "^8.0.6",
+    "@types/gulp-postcss": "^8.0.6",
+    "@types/gulp-sass": "^5.0.4",
+    "@types/gulp-sourcemaps": "^0.0.38",
+    "@types/gulp-terser": "^1.2.6",
+    "@types/node": "^20.11.16",
+    "autoprefixer": "^10.4.17",
+    "del": "^7.1.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-imagemin": "^9.0.0",
+    "gulp-postcss": "^9.1.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-terser": "^2.1.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "postcss": "^8.4.33",
+    "sass": "^1.70.0"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 1%"
+  ]
+}
